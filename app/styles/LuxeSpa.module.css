@@ -1,0 +1,132 @@
+/* Header Styles */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #000;
+  border-bottom: 5px solid;
+  border-image: linear-gradient(to right, #b5945b, #f4e5c3) 1;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logoImage {
+  width: 65px;
+  height: 65px;
+  margin-right: 10px;
+}
+
+.logoText {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.navLinks {
+  display: flex;
+  list-style: none;
+}
+
+.navLinks li {
+  margin: 0 15px;
+}
+
+.navLinks a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.navLinks a:hover {
+  color: #b5945b;
+}
+
+.ctaButton {
+  padding: 10px 20px;
+  border: 2px solid #b5945b;
+  background: none;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+.ctaButton:hover {
+  background-color: #b5945b;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Hero Section */
+.hero {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -5px;
+}
+
+.heroImage {
+  width: 100%;
+  max-height: 500px;
+  object-fit: cover;
+  display: block;
+}
+
+.heroOverlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px 40px;
+  border: 2px solid;
+  border-image: linear-gradient(to right, #b5945b, #f4e5c3) 1;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.heroTitle {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* Footer Styles */
+.fakeFooter {
+  background-color: #000;
+  color: #fff;
+  padding: 20px 40px;
+  text-align: center;
+  border-top: 5px solid;
+  border-image: linear-gradient(to right, #b5945b, rgba(0, 0, 0, 0.8)) 1;
+}
+
+.fakeFooter-links {
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.fakeFooter-links a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.fakeFooter-links a:hover {
+  color: #b5945b;
+}
+
+.fakeFooter-text {
+  margin-top: 10px;
+  font-size: 0.9rem;
+}
+
